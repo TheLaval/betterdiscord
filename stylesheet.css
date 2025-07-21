@@ -1,8 +1,7 @@
 @font-face {
-    font-family: 'ABC Ginto Nord Unlicensed Trial';
-    src: url('https://raw.githubusercontent.com/TheLaval/font/refs/heads/main/ABCGintoNord-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'GintoDiscordNord-Bold';
+  src: url('https://github.com/TheLaval/font/raw/refs/heads/main/ABCGintoDiscordNord-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
