@@ -1,6 +1,6 @@
-Edit & No Share License (v1.0)
+# Edit & No Share License (v1.0)
 
-Copyright (c) 2025 Laval
+## Copyright (c) 2025 Laval
 
 Permission is granted to download, use, and modify this theme for **personal use only**.
 
