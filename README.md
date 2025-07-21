@@ -83,20 +83,35 @@ Make sure the name exactly matches the available fonts names.
 # 📁 File Structure
 
 betterdiscord/
+
 ├── GintoDiscord.theme.css
+
 ├── README.md
+
 ├── LICENCE.md
+
 ├── Nord/
+│   │
 │   ├── Bold.woff2
+│   │
 │   ├── Bold Italic.woff2
+│   │
 │   └── Black Italic.woff2
+│
 ├── Discord/
+│   │
 │   ├── Regular.woff2
+│   │
 │   ├── Medium.woff2
+│   │
 │   └── ...
+│
 └── GG Sans/
+    │
     ├── Bold.woff2
+    │
     ├── Medium.woff2
+    │
     └── ...
 
 All fonts are included via GitHub using @font-face.
