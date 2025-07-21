@@ -1,0 +1,217 @@
+/**
+ * @name Ginto Discord & GG Sans
+ * @version 1.0.0
+ * @description Discord theme based on Ginto Discord font (and gg sans).
+ * @author Laval
+ * @authorId 1057382153211613294
+ * @source https://github.com/TheLaval/betterdiscord/tree/main
+ * @website https://betterdiscord.app/theme/Ginto%20Discord
+ */
+ 
+
+/*
+---------------------------------------------
+
+LIST OF FONTS
+
+---------------------------------------------
+
+GINTO DISCORD NORD (LOGO FONT)
+- Nord Bold
+- Nord Bold Italic
+- Nord Black Italic
+
+---------------------------------------------
+
+GINTO DISCORD (LOGO FONT)
+- Medium
+- Medium Italic
+- Regular
+- Regular Italic
+
+---------------------------------------------
+
+GG SANS (DEFAULT DISCORD FONT)
+- GG Sans Bold
+- GG Sans Bold Italic
+- GG Sans Extra Bold
+- GG Sans Extra Bold Italic
+- GG Sans Medium
+- GG Sans Medium Italic
+- GG Sans Normal
+- GG Sans Normal Italic
+- GG Sans Semi Bold
+- GG Sans Semi Bold Italic
+
+---------------------------------------------
+
+SETTINGS
+- Change only the --customFont variable to change the font used in Discord.
+- The default font on Discord is 'GG Sans Normal'. */
+
+
+:root {
+  --customFont:
+
+  'GG Sans Bold' /* Change this to your desired font */
+
+  , sans-serif;
+  --font-primary: var(--customFont), "gg sans";
+  --font-display: var(--customFont), "gg sans";
+}
+/*
+
+---------------------------------------------
+
+DISCORD FONTS IMPORTS
+
+---------------------------------------------
+*/
+
+
+
+
+@font-face {
+  font-family: 'Nord Bold';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/Nord/Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nord Bold Italic';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/Nord/Bold Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nord Black Italic';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/Nord/Black Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Medium Italic';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/Discord/Medium Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Medium';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/Discord/Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Regular Italic';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/Discord/Regular Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/Discord/Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GG Sans Bold Italic';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/GG Sans/Bold Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GG Sans Bold';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/GG Sans/Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GG Sans Extra Bold Italic';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/GG Sans/Extra Bold Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GG Sans Extra Bold';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/GG Sans/Extra Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GG Sans Medium Italic';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/GG Sans/Medium Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GG Sans Medium';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/GG Sans/Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GG Sans Normal Italic';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/GG Sans/Normal Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GG Sans Normal';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/GG Sans/Normal.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GG Sans Semi Bold Italic';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/GG Sans/Semi Bold Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GG Sans Semi Bold';
+  src: url('https://raw.githubusercontent.com/TheLaval/betterdiscord/main/GG Sans/Semi Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+::placeholder,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--customFont) !important;
+}
