@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'ABC Ginto Nord Unlicensed Trial';
-    src: url('ABCGintoNord-Bold.ttf') format('truetype');
+    src: url('https://github.com/TheLaval/font/raw/refs/heads/main/ABCGintoNord-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
